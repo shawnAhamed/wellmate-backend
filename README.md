@@ -107,3 +107,4 @@ Unverified doctors get a `403` with an explanatory message if they try to answer
 - **"could not find driver" / SQLSTATE error**: install the MySQL PHP extension — `brew install php` includes it, but if missing run `pecl install pdo_mysql` or check `php -m | grep pdo_mysql`.
 - **Access denied for user 'root'**: update `DB_USERNAME` / `DB_PASSWORD` in `.env` to match your local MySQL credentials.
 - **Port 8000 already in use**: run `php artisan serve --port=8001` instead.
+
